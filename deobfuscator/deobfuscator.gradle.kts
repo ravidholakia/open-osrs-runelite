@@ -35,7 +35,7 @@ dependencies {
     deobjars(group = "net.runelite.rs", name = "vanilla", version = ProjectVersions.rsversion.toString())
     deobjars(project(":runescape-client"))
 
-    annotationProcessor(group = "org.projectlombok", name = "lombok", version = "1.18.12")
+    annotationProcessor(group = "org.projectlombok", name = "lombok", version = "1.18.14")
 
     implementation(group = "org.jetbrains", name = "annotations", version = "20.1.0")
     implementation(group = "org.ow2.asm", name = "asm", version = "9.0")
@@ -50,7 +50,7 @@ dependencies {
     runtimeOnly(group = "org.slf4j", name = "slf4j-simple", version = "1.7.30")
 
     testImplementation(deobjars)
-    testImplementation(group = "junit", name = "junit", version = "4.13")
+    testImplementation(group = "junit", name = "junit", version = "4.13.1")
     testImplementation(group = "org.mockito", name = "mockito-core", version = "3.5.13")
 }
 

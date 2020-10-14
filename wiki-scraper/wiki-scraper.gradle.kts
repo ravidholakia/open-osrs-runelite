@@ -29,9 +29,9 @@ dependencies {
     api(project(":cache"))
     api(project(":runelite-api"))
 
-    annotationProcessor(group = "org.projectlombok", name = "lombok", version = "1.18.12")
+    annotationProcessor(group = "org.projectlombok", name = "lombok", version = "1.18.14")
 
-    compileOnly(group = "org.projectlombok", name = "lombok", version = "1.18.12")
+    compileOnly(group = "org.projectlombok", name = "lombok", version = "1.18.14")
 
     implementation(group = "com.google.code.gson", name = "gson", version = "2.8.6")
     implementation(group = "com.google.guava", name = "guava", version = "29.0-jre")
